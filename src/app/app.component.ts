@@ -46,10 +46,10 @@ export class AppComponent implements OnInit {
           });
       }
       // list of cameras
-      navigator.mediaDevices.enumerateDevices().then((devices) => {
-        const cameras = devices;
-        debugger
-      });
+      // navigator.mediaDevices.enumerateDevices().then((devices) => {
+      //   const cameras = devices;
+      //   debugger
+      // });
   }
 
   public capture() {
